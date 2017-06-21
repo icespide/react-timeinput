@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 'thwip'
+      value: '12:00 pm'
     };
   }
   render(){
@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <TimeInput
           value={this.state.value}
-          onChange={(e) => this.setState({value: e.target.value})}
+          onChange={(value) => this.setState({value: value})}
         />
       </div>
     );
