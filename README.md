@@ -1,2 +1,2 @@
-# react-timeinput
-react time text input
+# react-component
+boilerplate for a simple shareable react-component
