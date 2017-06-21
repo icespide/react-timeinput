@@ -2,6 +2,16 @@ import React, { Component } from 'react';
 
 export default class TimeInput extends Component {
   render(){
-    return (<div>thwip thwip!</div>);
+    return (
+      <input
+        {...this.props}
+        id="timeinput-text-input"
+        type="text"
+      />
+    );
   }
 }
+
+TimeInput.defaultProps = {
+  onChange: () => {}
+};

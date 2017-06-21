@@ -7,7 +7,7 @@
   "author": "Peter Bault <icespide@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d modules",
+    "build": "babel src -d modules --presets es2015",
     "start": "webpack-dev-server --config example/webpack.config.js"
   },
   "devDependencies": {
