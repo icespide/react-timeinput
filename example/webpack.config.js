@@ -3,6 +3,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
   },
+  devtool: 'cheap-hidden-source-map',
   devServer: {
     contentBase: __dirname,
     compress: true
